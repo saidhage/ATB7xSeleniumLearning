@@ -15,8 +15,9 @@ public class Selenium12 {
         driver.get("https://app.vwo.com");
         Assert.assertEquals(driver.getTitle(), "Login - VWO");
         Assert.assertEquals(driver.getCurrentUrl(), "https://app.vwo.com/#/login");
-        Assert.assertEquals("Work Smarter. Scale Faster.", "Work Smarter. Scale Faster.");
-        //driver.quit();
+       // Assert.assertEquals("Work Smarter. Scale Faster.", "Work Smarter. Scale Faster.");
+        Assert.assertEquals(driver.getPageSource(), "Work Smarter. Scale Faster." );
+        driver.quit();
 
 
 }}
