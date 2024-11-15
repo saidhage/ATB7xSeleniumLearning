@@ -31,12 +31,13 @@ public class KatalonCura {
 
         /* Verying "CURA Heathcare services" in page source by using loop  */
         if(driver.getPageSource().contains("CURA Healthcare Service")){
-            System.out.println("");
+            System.out.println("Verified it exists");
             Assert.assertTrue(true);
         }
         else{
-            System.out.println("CURA Healthcare Service is not present");
+            Assert.assertTrue(false);
+           // System.out.println("CURA Healthcare Service is not present");
         }
-
+     driver.quit();
     }
 }

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5245161-631a-4845-9a6a-eb79e0a20585" name="Changes" comment="New file added..">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Task13Oct/KatalonCura.java" afterDir="false" />
+    <list default="true" id="b5245161-631a-4845-9a6a-eb79e0a20585" name="Changes" comment="New file added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Selenium20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Selenium21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Selenium24.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Project01/Selenium12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Project01/Selenium12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Task13Oct/KatalonCura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Task13Oct/KatalonCura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "saidhage"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;saidhage&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/saidhage/ATB7xSeleniumLearning.git",
-    "accountId": "a5643041-742d-4a4b-bbf1-c5152694c19b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/saidhage/ATB7xSeleniumLearning.git&quot;,
+    &quot;accountId&quot;: &quot;a5643041-742d-4a4b-bbf1-c5152694c19b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -51,19 +53,22 @@
   "keyToString": {
     "Application.Selenium01.executor": "Run",
     "Application.Selenium12.executor": "Run",
+    "Application.Selenium20.executor": "Run",
+    "Application.Selenium21.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.ATB7xSeleniumLearning.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.KatalonCura.katalonCuraTC.executor": "Run",
     "TestNG.Selenium02.test_01.executor": "Run",
     "TestNG.Selenium12.verifyTitle.executor": "Run",
+    "TestNG.Selenium24.testLogin.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.KatalonCura.katalonCuraTC">
-    <configuration name="Selenium01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium01" />
+  <component name="RunManager" selected="TestNG.Selenium24.testLogin">
+    <configuration name="Selenium20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium20" />
       <module name="ATB7xSeleniumLearning" />
       <extension name="coverage">
         <pattern>
@@ -75,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Project01.Selenium12" />
+    <configuration name="Selenium21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium21" />
       <module name="ATB7xSeleniumLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testingacademy.ex_selenium.Project01.*" />
+          <option name="PATTERN" value="com.testingacademy.ex_selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,24 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium02.test_01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB7xSeleniumLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testingacademy.ex_selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testingacademy.ex_selenium" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium02" />
-      <option name="METHOD_NAME" value="test_01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Selenium12.verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB7xSeleniumLearning" />
       <extension name="coverage">
@@ -170,21 +157,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium24.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xSeleniumLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingacademy.ex_selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingacademy.ex_selenium" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium24" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Selenium12" />
-      <item itemvalue="Application.Selenium01" />
+      <item itemvalue="Application.Selenium20" />
+      <item itemvalue="Application.Selenium21" />
       <item itemvalue="Maven.ATB7xSeleniumLearning" />
+      <item itemvalue="TestNG.Selenium24.testLogin" />
       <item itemvalue="TestNG.KatalonCura.katalonCuraTC" />
       <item itemvalue="TestNG.Selenium12.verifyTitle" />
-      <item itemvalue="TestNG.Selenium02.test_01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Selenium24.testLogin" />
+        <item itemvalue="Application.Selenium21" />
+        <item itemvalue="Application.Selenium20" />
         <item itemvalue="TestNG.KatalonCura.katalonCuraTC" />
         <item itemvalue="TestNG.Selenium12.verifyTitle" />
-        <item itemvalue="Application.Selenium12" />
-        <item itemvalue="TestNG.Selenium02.test_01" />
-        <item itemvalue="Application.Selenium01" />
       </list>
     </recent_temporary>
   </component>
@@ -213,12 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731034281353</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New file added.">
+      <option name="closed" value="true" />
+      <created>1731304652247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731304652247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium Learning First Script." />
     <MESSAGE value="New file added.." />
-    <option name="LAST_COMMIT_MESSAGE" value="New file added.." />
+    <MESSAGE value="New file added." />
+    <option name="LAST_COMMIT_MESSAGE" value="New file added." />
   </component>
 </project>
