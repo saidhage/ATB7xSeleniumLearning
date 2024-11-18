@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5245161-631a-4845-9a6a-eb79e0a20585" name="Changes" comment="New file added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Selenium27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Task19Oct/VWO_Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Selenium28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Selenium29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testingacademy/ex_selenium/Selenium30.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,12 +64,14 @@
     "TestNG.Selenium12.verifyTitle.executor": "Run",
     "TestNG.Selenium24.testLogin.executor": "Run",
     "TestNG.Selenium27.error_freTrail.executor": "Run",
+    "TestNG.Selenium29.test_verifyExpireMessage.executor": "Run",
+    "TestNG.Selenium30.test_imacPrices.executor": "Run",
     "TestNG.VWO_Login.vwoLoginProcess.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.VWO_Login.vwoLoginProcess">
+  <component name="RunManager" selected="TestNG.Selenium30.test_imacPrices">
     <configuration name="Selenium27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium27" />
       <module name="ATB7xSeleniumLearning" />
@@ -110,42 +113,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="AwesomeQA.registerAccount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB7xSeleniumLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testingacademy.ex_selenium.Task19Oct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testingacademy.ex_selenium.Task19Oct" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Task19Oct.AwesomeQA" />
-      <option name="METHOD_NAME" value="registerAccount" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium24.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB7xSeleniumLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testingacademy.ex_selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testingacademy.ex_selenium" />
-      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium24" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Selenium27.error_freTrail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB7xSeleniumLearning" />
       <extension name="coverage">
@@ -157,6 +124,42 @@
       <option name="PACKAGE_NAME" value="com.testingacademy.ex_selenium" />
       <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium27" />
       <option name="METHOD_NAME" value="error_freTrail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium29.test_verifyExpireMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xSeleniumLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingacademy.ex_selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingacademy.ex_selenium" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium29" />
+      <option name="METHOD_NAME" value="test_verifyExpireMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium30.test_imacPrices" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xSeleniumLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingacademy.ex_selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingacademy.ex_selenium" />
+      <option name="MAIN_CLASS_NAME" value="com.testingacademy.ex_selenium.Selenium30" />
+      <option name="METHOD_NAME" value="test_imacPrices" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -185,18 +188,18 @@
     <list>
       <item itemvalue="Application.Selenium27" />
       <item itemvalue="Maven.ATB7xSeleniumLearning" />
-      <item itemvalue="TestNG.AwesomeQA.registerAccount" />
-      <item itemvalue="TestNG.Selenium24.testLogin" />
+      <item itemvalue="TestNG.Selenium29.test_verifyExpireMessage" />
+      <item itemvalue="TestNG.Selenium30.test_imacPrices" />
       <item itemvalue="TestNG.Selenium27.error_freTrail" />
       <item itemvalue="TestNG.VWO_Login.vwoLoginProcess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Selenium30.test_imacPrices" />
+        <item itemvalue="TestNG.Selenium29.test_verifyExpireMessage" />
         <item itemvalue="TestNG.VWO_Login.vwoLoginProcess" />
         <item itemvalue="TestNG.Selenium27.error_freTrail" />
         <item itemvalue="Application.Selenium27" />
-        <item itemvalue="TestNG.AwesomeQA.registerAccount" />
-        <item itemvalue="TestNG.Selenium24.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731692949299</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New file added.">
+      <option name="closed" value="true" />
+      <created>1731696283193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731696283193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
